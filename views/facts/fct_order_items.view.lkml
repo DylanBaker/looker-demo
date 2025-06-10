@@ -8,6 +8,7 @@ view: fct_order_items {
   dimension: order_item_id {
     primary_key: yes
     type: number
+    alias: [id]
     sql: ${TABLE}.id ;;
   }
 
@@ -40,7 +41,7 @@ view: fct_order_items {
       quarter,
       year
     ]
-    sql: ${TABLE}.delivered ;;
+    sql: ${TABLE}.delivered_at ;;
   }
 
   dimension: order_id {
