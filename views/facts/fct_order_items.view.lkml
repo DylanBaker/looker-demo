@@ -26,6 +26,21 @@ view: fct_order_items {
     sql: ${TABLE}.created_at ;;
   }
 
+  dimension_group: delivered_at {
+    type: time
+    description: "The date/timestamp the line item was delivered."
+    timeframes: [
+      raw,
+      time,
+      date,
+      week,
+      month,
+      quarter,
+      year
+    ]
+    sql: ${TABLE}.delivered_at ;;
+  }
+
   # Step 2: Add delivered_at dimension_group
 
   dimension: order_id {
