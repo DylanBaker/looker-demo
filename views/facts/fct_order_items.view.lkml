@@ -29,6 +29,7 @@ view: fct_order_items {
   # Step 2: Add delivered_at dimension_group
 
   dimension_group: delivered {
+    type: time
     description: "The date/timestamp the line item was delivered."
     timeframes: [
       raw,
