@@ -40,7 +40,7 @@ view: fct_order_items {
       quarter,
       year
     ]
-    sql: ${TABLE}.delivered_at ;;
+    sql: ${TABLE}.delivered ;;
   }
 
   dimension: order_id {
