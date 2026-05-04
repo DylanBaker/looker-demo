@@ -7,7 +7,7 @@ view: dim_products {
     type: number
     primary_key: yes
     hidden: yes
-    sql: ${TABLE}.id ;;
+    sql: ${TABLE}.i ;;
   }
 
   dimension: brand {
