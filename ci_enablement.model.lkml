@@ -1,4 +1,4 @@
-connection: "default_bigquery_connection"
+connection: "bq_faa"
 
 include: "/views/dimensions/dim_products.view.lkml"
 include: "/views/dimensions/dim_users.view.lkml"
