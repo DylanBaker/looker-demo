@@ -1,2 +1,6 @@
 schema_version: 1
-ruleset_version: "all-v1.0"
+ruleset_version: "none"
+
+rules:
+  view-dimension-order:
+    severity: warn
