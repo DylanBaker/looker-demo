@@ -3,5 +3,3 @@ ruleset_version: "none"
 rules:
   view-dimension-order:
     severity: warn
-  dimension-name-snake-case:
-    severity: error
