@@ -25,7 +25,7 @@ view: fct_orders {
     sql: ${TABLE}.created_at ;;
   }
 
-  dimension: order_status {
+  dimension: orderStatus {
     type: string
     description: "The status of the order."
     sql: ${TABLE}.status ;;
