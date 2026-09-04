@@ -1,6 +1,7 @@
-schema_version: 1
-ruleset_version: "none"
-
-rules:
-  view-dimension-order:
-    severity: warn
+  schema_version: 1
+  ruleset_version: "none"
+  rules:
+    view-dimension-order:
+      severity: warn
+    dimension-name-snake-case:
+      severity: error
