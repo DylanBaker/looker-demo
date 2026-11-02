@@ -4,8 +4,6 @@ include: "/views/dimensions/dim_products.view.lkml"
 include: "/views/dimensions/dim_users.view.lkml"
 include: "/views/facts/fct_order_items.view.lkml"
 include: "/views/facts/fct_orders.view.lkml"
-include: "/views/ci_target_exec_test.view.lkml"
-include: "/views/ci_scale_test.view.lkml"
 
 label: "Demo - Ecommerce"
 
@@ -62,7 +60,3 @@ test: orders_items_2020 {
     expression: ${order_items.count_order_items} < 8000  ;;
   }
 }
-
-explore: ci_target_exec_test {}
-
-explore: ci_scale_test {}
