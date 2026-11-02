@@ -5,7 +5,7 @@ view: ci_target_exec_test {
 
   dimension: ok_dim {
     type: number
-    sql: ${TABLE}.id ;;
+    sql: ${TABLE}.id + 0 ;;
   }
 
   dimension: broken_same {
